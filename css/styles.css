@@ -1,10 +1,17 @@
 h1{
+  text-align: center;
   border: solid;
   border-width: 2px;
   padding: 1%;
   border-color: black;
   margin-right: 30%;
   background-color: #82e2ed;
+}
+.description{
+  float:inline-start;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 150%;
 }
 .sidebar{
   float:right;
