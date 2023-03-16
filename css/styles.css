@@ -1,7 +1,32 @@
+h1{
+  border: solid;
+  border-width: 2px;
+  padding: 1%;
+  border-color: black;
+  margin-right: 30%;
+  background-color: #82e2ed;
+}
 body{
-  font-family: Geneva;
+  font-family: sans-serif;
+  margin-left: 5%;
+  background-color: bisque;
 }
 img{
   box-sizing: border-box;
-  width: 25%;
+  width: 40%;
+}
+.column{
+  float: left;
+  width: 75%;
+}
+.column p {
+  text-align: center;
+}
+.column h2 {
+  color: black;
+  font-style: italic;
+  font-family: sans-serif;
+}
+.column li {
+  font-size: 20px;
 }
