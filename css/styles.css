@@ -1,3 +1,4 @@
+
 h1{
   text-align: center;
   border: solid;
@@ -18,7 +19,7 @@ h1{
   border: solid;
   border-width: 3px;
   margin-right: 2%;
-  padding-right: 2%;
+  padding-right: 1%;
   border-color: black;
   background-color: rgb(155, 152, 152);
 }
@@ -28,7 +29,6 @@ h1{
 body{
   font-family: sans-serif;
   margin-left: 5%;
-  background-color: bisque;
 }
 img{
   box-sizing: border-box;
@@ -54,4 +54,21 @@ img{
 }
 .column li {
   font-size: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    background-color: bisque;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  body {
+    background-color: beige;
+  }   
+}
+
+@media screen and (max-width: 480px) and (min-width: 300px) {
+  body {
+    background-color: teal;
+  }
 }
