@@ -1,3 +1,7 @@
 body{
   font-family: Geneva;
 }
+img{
+  box-sizing: border-box;
+  width: 25%;
+}
