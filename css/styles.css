@@ -1,7 +1,7 @@
 h1{
   text-align: center;
   border: solid;
-  border-width: 2px;
+  border-width: 3px;
   padding: 1%;
   border-color: black;
   margin-right: 30%;
@@ -16,11 +16,11 @@ h1{
 .sidebar{
   float:right;
   border: solid;
-  border-width: 2px;
+  border-width: 3px;
   margin-right: 2%;
   padding-right: 2%;
   border-color: black;
-  background-color: grey;
+  background-color: rgb(155, 152, 152);
 }
 .sidebar h2{
   text-align: center;
@@ -33,6 +33,11 @@ body{
 img{
   box-sizing: border-box;
   width: 40%;
+  border: solid;
+  border-width: 4px;
+  padding: 1%;
+  border-color: black;
+  background-color: rgb(180, 3, 180);
 }
 .column{
   float: left;
