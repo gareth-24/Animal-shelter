@@ -6,6 +6,18 @@ h1{
   margin-right: 30%;
   background-color: #82e2ed;
 }
+.sidebar{
+  float:right;
+  border: solid;
+  border-width: 2px;
+  margin-right: 2%;
+  padding-right: 2%;
+  border-color: black;
+  background-color: grey;
+}
+.sidebar h2{
+  text-align: center;
+}
 body{
   font-family: sans-serif;
   margin-left: 5%;
